@@ -23,7 +23,7 @@ def game():
     # Crear personaje inicial (sin decoradores)
     # Posición Y calculada para estar cerca del suelo
     # SCREEN_HEIGHT - alto_personaje - margen_del_suelo
-    posicion_y = SCREEN_HEIGHT - 50 - 20  # 50 es el alto del personaje, 20 es el margen
+    posicion_y = SCREEN_HEIGHT - 50 - 110  # 50 es el alto del personaje, 110 es el margen
     personaje = Personaje(x=100, y=posicion_y, ancho_ventana=SCREEN_WIDTH)
 
     ejecutando = True
